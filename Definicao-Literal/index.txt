@@ -1,0 +1,6 @@
+Jesse matos
+curso de python
+git add .
+git status 
+git commit -m "adicionando arquivo"
+git push origin branch
