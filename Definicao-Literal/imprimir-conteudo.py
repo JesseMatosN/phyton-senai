@@ -5,4 +5,4 @@ print("Hoje tem semifinal: \nFrança vs espanha")
 print("meu nome é", "jesse matos ", end="*")
 
 # Separador no print
-print("Meu", "nome", "é", "jesse", sep="*")
+print("Meu", "nome", "é", "jesse", sep="-")

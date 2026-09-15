@@ -1,5 +1,8 @@
 Jesse matos
 curso de python
+cd + pasta que contem os arquivos dos codigos.
+cd .. (para voltar uma pasta)
+python + o arquivo que esta o codigo (exemplo: python hello-world.py)
 git add .
 git status 
 git commit -m "adicionando arquivo"
