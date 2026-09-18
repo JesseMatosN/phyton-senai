@@ -6,10 +6,3 @@ git push origin branch
 python (mais nome do arquivo)
 https://dontpad.com/senai-python
 
-# Entrada de dados
-
-
-# Processamento computacional
-
-
-# Saída de informações
