@@ -14,7 +14,7 @@ print(f"seu imc: {cauculo}")
 
 if cauculo <= 18.5:
     print("Abaixo do peso")
-elif cauculo >= 18.5 and cauculo < 24.9:
+elif cauculo < 24.9:
     print("Peso normal")
 else:
     print("Acima do peso")

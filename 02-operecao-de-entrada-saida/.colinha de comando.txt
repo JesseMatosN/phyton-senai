@@ -1,0 +1,15 @@
+Comando no terminal:
+git add .
+git status
+git commit -m "Menssagem"
+git push origin branch
+python (mais nome do arquivo)
+
+
+# Entrada de dados
+
+
+# Processamento computacional
+
+
+# Saída de informações

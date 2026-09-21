@@ -6,12 +6,13 @@ Depois, mostre o ano de nascimento e a idade no terminal.
 
 # Entrada de dados
 pessoa = (input("Nome: "))
-data_n = int(input("Data de nascimento: "))
+ano_n = int(input("Ano de nascimento: "))
 
 
 # Processamento computacional
-idade_ano = 2026 - data_n
+idade_ano = 2026 - ano_n
 
 # Saída de informações
-print(f"Ano de nascimento: {data_n}")
+print(f"Nome: {pessoa}")
+print(f"Ano de nascimento: {ano_n}")
 print(f"idade: {idade_ano}")

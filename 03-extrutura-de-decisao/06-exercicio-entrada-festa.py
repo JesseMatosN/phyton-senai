@@ -6,7 +6,7 @@ idade = int(input("Sua idade: "))
 
 if idade >= 18:
     print("Pode entrar na festa")
-elif idade >= 16 and idade < 18:
+elif idade >= 16:
     print("Pode entrar na festa com responsavel")
 else:
     print("Não pode entra na festa")
