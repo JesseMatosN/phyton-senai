@@ -16,22 +16,18 @@
 
 # Pedido finalizado!
 # Você pediu 3 produtos.
-compras = []
+lista = []
+pedido = input("Escolha um lanche (ou digite 'sair'): ")
 quant = 0
 
-pedido = input("seu pedido: ")
-
 while pedido != "sair":
-    compras.append(pedido)
+    lista.append(pedido)
     quant = quant + 1
+    pedido = input("Escolha outro lanche (ou digite 'sair'): ")
 
-    pedido = input("Digite outro produto: ")
+print("Pedido finalizado")
+print(f"total: {quant} lanches")
 
-print("pedido finalizado!")
-print(quant)
-
-for produto in compras:
-    print("-", pedido)
-
-  
-
+for pedido in set(lista):
+    repitido = lista.count(pedido)
+    print(repitido, "x -", pedido)
