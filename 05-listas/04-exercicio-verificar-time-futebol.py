@@ -16,6 +16,6 @@ times = ["São paulo", "corinthias", "Palmeiras"]
 time = input("time: ")
 
 if time in times:
-    print("Esta na lista")
+    print("Esta na lista!")
 else:
-    print("Não esta na lista")
+    print("Não esta na lista!")
