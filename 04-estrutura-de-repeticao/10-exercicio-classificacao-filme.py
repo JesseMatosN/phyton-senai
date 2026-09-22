@@ -47,7 +47,7 @@ while escolha != "sair":
 
     escolha = input("Escolha outro filme (quando terminar de escolher digite 'sair'): ")
    
-print("encerrado")
+print("Filmes escolhido:")
 
 for escolha in lista:
     print(f"- {escolha}")
