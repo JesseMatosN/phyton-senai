@@ -17,5 +17,7 @@ comidas = [
 ]
 
 for comida in comidas:
-     if comida[1] == "Doce":  # Alterado para "Doce"
-         print("comida doce: ", comida[0])
+    if comida[1] == "Doce":  # Alterado para "Doce"
+         print(f"comida doce:    {comida[0]}")
+    else:
+        print(f"comida salgada: {comida[0]}")
